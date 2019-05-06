@@ -22,6 +22,5 @@
     "multer": "^1.3.0"
   },
   "devDependencies": {
-    "nodemon": "^1.12.1"
   }
 }

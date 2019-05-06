@@ -9,7 +9,7 @@ const orderRoutes = require("./api/routes/orders");
 
 mongoose.connect(
   "mongodb://TaTaSaKi:" +
-    process.env.MONGO_ATLAS_PW +
+    "Ratanak123"+
     "@cluster0-shard-00-00-kkcos.mongodb.net:27017,cluster0-shard-00-01-kkcos.mongodb.net:27017,cluster0-shard-00-02-kkcos.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true",
   {
     useMongoClient: true
